@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ueberholvorgang_Level4" version="4">
+  <OBJECT>
+    <ID name="Ueberholvorgang_Level4" mc="Standard.Project" uid="f6b7756b-b021-425c-8d0e-0ecd6c03c815"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Ueberholvorgang_Level4]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="ueberholvorgang_level4" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Ueberholvorgang_Level4" mc="Infrastructure.DiagramSet" uid="066a9b4d-2096-4060-a59a-61dfa0a6d74a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
