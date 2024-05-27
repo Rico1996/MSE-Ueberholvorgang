@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Räder" version="4">
+  <OBJECT>
+    <ID name="Räder" mc="Standard.Class" uid="23e8428d-1cac-4049-9f12-4a78114a6881"/>
+    <PID name="Fahrwerk" mc="Standard.Class" uid="0ac69ba8-a0e8-4361-828c-b6635b2878f8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Räder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Reifen" mc="Standard.Class" uid="23753ed3-2c5b-43f3-bfcf-20f48c8e7a19"/>
+        <COMPID name="Ventil" mc="Standard.Class" uid="469eb4b9-a0cb-47c1-92e8-5c6293af7f34"/>
+        <COMPID name="Schrauben" mc="Standard.Class" uid="d72954e8-1a20-41de-8179-610de086e6f7"/>
+        <COMPID name="Felge" mc="Standard.Class" uid="9e15c5e4-14fe-47f4-aa2c-666b8387c3ad"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Lenkung" version="4">
+  <OBJECT>
+    <ID name="Lenkung" mc="Standard.Class" uid="6b02d7f8-e39b-4407-9d83-e513a82f36bb"/>
+    <PID name="Fahrwerk" mc="Standard.Class" uid="0ac69ba8-a0e8-4361-828c-b6635b2878f8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Lenkung]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Lenksäule" mc="Standard.Class" uid="6013e47c-cde9-4448-a986-19c3cd8ab2bd"/>
+        <COMPID name="Lenkgetriebe" mc="Standard.Class" uid="c515b83a-7fa8-41ca-8c3a-aa82e6ae9d79"/>
+        <COMPID name="Servoantrieb" mc="Standard.Class" uid="00f622d8-7875-4a2a-9c8e-622719b02ffd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

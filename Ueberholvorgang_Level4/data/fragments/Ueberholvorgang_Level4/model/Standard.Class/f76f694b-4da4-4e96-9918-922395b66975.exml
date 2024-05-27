@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Exterieur" version="4">
+  <OBJECT>
+    <ID name="Exterieur" mc="Standard.Class" uid="f76f694b-4da4-4e96-9918-922395b66975"/>
+    <PID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Exterieur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Chassi" mc="Standard.Class" uid="abc05e4c-85e0-4904-8e5c-690171f948f9"/>
+        <COMPID name="Karosserie" mc="Standard.Class" uid="de101c7b-9f10-4f90-a01a-aa8275a6becd"/>
+        <COMPID name="Sicherheitsstruktur" mc="Standard.Class" uid="e3317251-30ec-4eb2-8c0d-66772f7cfd1d"/>
+        <COMPID name="Externe Beleuchtung" mc="Standard.Class" uid="5ff11842-74c8-43be-9e74-00ed0cff863d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

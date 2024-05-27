@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Radnabenmotor" version="4">
+  <OBJECT>
+    <ID name="Radnabenmotor" mc="Standard.Class" uid="bf8bbb21-0e80-4509-a68d-f8ad85947cee"/>
+    <PID name="Antrieb" mc="Standard.Class" uid="f7ab2e36-a0ed-4848-98e5-f41e5ed73864"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Radnabenmotor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Planetengetriebe" mc="Standard.Class" uid="429ba53a-e11d-4c92-916e-77bfbfd73425"/>
+        <COMPID name="Motorsteuerung" mc="Standard.Class" uid="c6d09f9a-7a0e-41ba-ae6b-85e46ba38c4c"/>
+        <COMPID name="Gehäuse" mc="Standard.Class" uid="077335c0-f422-4838-b3a5-819ba85803ff"/>
+        <COMPID name="Synchronmotor" mc="Standard.Class" uid="a578d904-f301-49d3-a823-fade4f9d9449"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

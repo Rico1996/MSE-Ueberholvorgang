@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Boardelektronik" version="4">
+  <OBJECT>
+    <ID name="Boardelektronik" mc="Standard.Class" uid="6876a8fb-499f-44d6-b08d-6949f7f3c7a3"/>
+    <PID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Boardelektronik]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Kommunikationssysteme" mc="Standard.Class" uid="cb19c27b-6621-466a-b3b2-3353dc9c7cd8"/>
+        <COMPID name="Fahrzeugsicherheitssysteme" mc="Standard.Class" uid="2d4fba56-caf4-4bd0-a9d8-626c9f2672f9"/>
+        <COMPID name="Assistenzsysteme" mc="Standard.Class" uid="b94ee509-4a89-4f7c-8a05-4ef8160e0143"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

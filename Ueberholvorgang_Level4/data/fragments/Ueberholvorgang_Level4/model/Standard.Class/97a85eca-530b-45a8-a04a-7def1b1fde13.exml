@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bremse" version="4">
+  <OBJECT>
+    <ID name="Bremse" mc="Standard.Class" uid="97a85eca-530b-45a8-a04a-7def1b1fde13"/>
+    <PID name="Fahrwerk" mc="Standard.Class" uid="0ac69ba8-a0e8-4361-828c-b6635b2878f8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Bremse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bremsscheibe" mc="Standard.Class" uid="764891de-c3ff-4a83-a001-05ceb5a4ddf1"/>
+        <COMPID name="Bremssattel" mc="Standard.Class" uid="f6665c2d-5d71-4e9e-9196-99cdbf2db7c8"/>
+        <COMPID name="Bremsbeläge" mc="Standard.Class" uid="f1e5e690-7143-427b-8e7e-8a279dc35f24"/>
+        <COMPID name="Bremskraftverstärker" mc="Standard.Class" uid="bec43408-db65-43f0-b020-c5fae86a7e62"/>
+        <COMPID name="Bremsleitungen" mc="Standard.Class" uid="6e7075f4-e790-4239-861a-8e72c23bbc0b"/>
+        <COMPID name="Bremsflüssigkeit" mc="Standard.Class" uid="981dada1-a9f0-48db-92ca-d97469455a83"/>
+        <COMPID name="Bremspedal" mc="Standard.Class" uid="d4307f81-ffc4-4776-b403-fd27e53f9c43"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

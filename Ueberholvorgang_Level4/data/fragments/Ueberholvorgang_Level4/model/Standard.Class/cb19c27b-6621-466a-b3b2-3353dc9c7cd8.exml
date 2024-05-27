@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kommunikationssysteme" version="4">
+  <OBJECT>
+    <ID name="Kommunikationssysteme" mc="Standard.Class" uid="cb19c27b-6621-466a-b3b2-3353dc9c7cd8"/>
+    <PID name="Boardelektronik" mc="Standard.Class" uid="6876a8fb-499f-44d6-b08d-6949f7f3c7a3"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Kommunikationssysteme]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Interne Netzwerke" mc="Standard.Class" uid="2b8168c6-af90-45d5-9516-631ce9d2b8ae"/>
+        <COMPID name="Externe Netzwerke" mc="Standard.Class" uid="31735db7-18cc-4f96-91c9-3b5afe39bd56"/>
+        <COMPID name="Antenne" mc="Standard.Class" uid="5527b231-47d6-4e95-9fae-e112739e3055"/>
+        <COMPID name="Cloud und Edge-Computing Kommunikation" mc="Standard.Class" uid="b97e2a24-e055-4b09-9ab6-ab6b75f4be3b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

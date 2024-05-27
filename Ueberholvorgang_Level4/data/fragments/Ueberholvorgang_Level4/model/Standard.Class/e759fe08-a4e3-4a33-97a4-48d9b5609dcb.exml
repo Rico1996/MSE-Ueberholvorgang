@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interieur" version="4">
+  <OBJECT>
+    <ID name="Interieur" mc="Standard.Class" uid="e759fe08-a4e3-4a33-97a4-48d9b5609dcb"/>
+    <PID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Interieur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Infotaimentsystem" mc="Standard.Class" uid="b8d9a564-dc50-4ee8-b85d-da1607c7c738"/>
+        <COMPID name="Sitzsystem" mc="Standard.Class" uid="19c4be62-1e68-4376-8cd7-41decc8306f1"/>
+        <COMPID name="Armaturenbrett" mc="Standard.Class" uid="1c70afde-cfe1-4ea0-b39b-392859fd6add"/>
+        <COMPID name="Innenverkleidung" mc="Standard.Class" uid="b17ba85e-c1da-47c8-8d4c-111ed7425802"/>
+        <COMPID name="Innenraumbeleuchtung" mc="Standard.Class" uid="8ad493b6-87b0-45c7-9892-5f0f4ef14173"/>
+        <COMPID name="Bedienelement" mc="Standard.Class" uid="afe6f4fc-b26c-4df6-b018-d0bc29cef3d1"/>
+        <COMPID name="Klimatisierung" mc="Standard.Class" uid="d5e881d5-71e7-40f1-b457-b2eace27f417"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
