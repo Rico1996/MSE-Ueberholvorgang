@@ -15,6 +15,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Servopumpe" mc="Standard.Class" uid="3fa48291-6a9b-458c-95d9-7464417850ed"/>
+        <COMPID name="Sensoren" mc="Standard.Class" uid="a5ec6faa-a2a8-4dfe-a78d-d4d7cb46ba39"/>
+        <COMPID name="Aktuator" mc="Standard.Class" uid="001a532c-2478-4028-b884-a1e7566f3549"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

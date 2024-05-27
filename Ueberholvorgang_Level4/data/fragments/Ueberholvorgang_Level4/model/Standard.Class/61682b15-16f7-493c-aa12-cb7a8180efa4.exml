@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dämpfung (hydraulisch)" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reifendrucksensor" version="4">
   <OBJECT>
-    <ID name="Dämpfung (hydraulisch)" mc="Standard.Class" uid="8ad75e56-d8ff-4f9b-90e8-1760bf988def"/>
-    <PID name="Radaufhängung" mc="Standard.Class" uid="37fa0bd9-e651-4791-b195-9d73afd3ecdc"/>
+    <ID name="Reifendrucksensor" mc="Standard.Class" uid="61682b15-16f7-493c-aa12-cb7a8180efa4"/>
+    <PID name="Ventil" mc="Standard.Class" uid="469eb4b9-a0cb-47c1-92e8-5c6293af7f34"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,10 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Dämpfung (hydraulisch)]]></ATT>
+      <ATT name="Name"><![CDATA[Reifendrucksensor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedElement">
-        <COMPID name="Ventile" mc="Standard.Class" uid="10f9cab5-b5ab-444e-95a0-438bb1874ecf"/>
-      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

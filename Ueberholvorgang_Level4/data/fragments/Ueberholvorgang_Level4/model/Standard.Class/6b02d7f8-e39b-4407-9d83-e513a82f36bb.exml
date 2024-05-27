@@ -17,8 +17,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Lenksäule" mc="Standard.Class" uid="6013e47c-cde9-4448-a986-19c3cd8ab2bd"/>
-        <COMPID name="Lenkgetriebe" mc="Standard.Class" uid="c515b83a-7fa8-41ca-8c3a-aa82e6ae9d79"/>
         <COMPID name="Servoantrieb" mc="Standard.Class" uid="00f622d8-7875-4a2a-9c8e-622719b02ffd"/>
+        <COMPID name="Lenkgetriebe" mc="Standard.Class" uid="c515b83a-7fa8-41ca-8c3a-aa82e6ae9d79"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>

@@ -15,6 +15,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ventile" mc="Standard.Class" uid="7e6a52b6-367d-4d28-903e-f0a55018acd5"/>
+        <COMPID name="Pumpe" mc="Standard.Class" uid="4d619697-4d33-4a73-8a01-4f12c35835da"/>
+        <COMPID name="Sensoren" mc="Standard.Class" uid="ae7620b3-a23d-4919-afd9-b969cb5ecc90"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

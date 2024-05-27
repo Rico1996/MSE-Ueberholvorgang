@@ -15,6 +15,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Vakuumpumpe" mc="Standard.Class" uid="79bca0ad-8926-42fd-a797-6ba940b79d4e"/>
+        <COMPID name="Drucksensor" mc="Standard.Class" uid="20ba0a01-7596-4d4b-a402-5c7ad66f85ab"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>
