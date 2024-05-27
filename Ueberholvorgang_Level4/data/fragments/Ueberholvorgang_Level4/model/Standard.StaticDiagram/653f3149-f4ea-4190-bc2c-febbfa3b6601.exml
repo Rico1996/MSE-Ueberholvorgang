@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Fahrzeugmodel Block Diagramm" version="4">
+  <OBJECT>
+    <ID name="Fahrzeugmodel Block Diagramm" mc="Standard.StaticDiagram" uid="653f3149-f4ea-4190-bc2c-febbfa3b6601"/>
+    <PID name="Überholvorgang" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">8</ATT>
+      <ATT name="UiData"><![CDATA[eJztVV1v2jAU/StW3jFQGFKllKqQDqFmpYJt0p6qm/gmdfEHsk1L9uuXkKQr2WCZVK0ve4pj+9x7zr3nJv7lTgryhMZyrS68Pu155HLsL6JHjB3hLN/yiMs2eOFpk1KpGQqu6VYKah04vmYcUgOSIuNOG4oCJSpny9O4Pp3J1f49KN89IuFRm/uXvD1v7N8ZvUHjMqJA5ukEZHrrAnCQn30FscWKh9oK4XXHfrcG/AJduUygd6Di7Hcqana2uG9prA3SEtuC3xRsDAxZnex655aYtMxym4eokAR3LojmOcf9sljYzMqmxG4p5pRsgwIcspxFo2Kfii3yVOwUxQHFwDB60BEy+jBIBv3heScZInSG/fNeJ4rP4k6CUZTAIBqNev3TVRdg3Y3SzyqECEWDwsoZrlJv/BEezHfcpvvikInQ8ZpUFKTf3SNOStQC52qq5UZb7vLWHEnTItT0gQtmsIgQclsUtnocRYRcrW3765M0MPCc0wkhQ3Nox8EpO77MECvxlooiQj5EBwH/zQz9HeqdLcjZET8EMxpefbte3k+upjez5eLLbfA2Fmkxlq+b9tM+r8ww/G+G9zHD58XdW7vgTx+Fxo+QVg1rMJ0rh2nR1apGTaV1vh+HObS5]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="JsStructure"></ATT>
+      <ATT name="Name"><![CDATA[Fahrzeugmodel Block Diagramm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="BlockDiagram" mc="Infrastructure.Stereotype" uid="00bc42ac-0000-1016-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

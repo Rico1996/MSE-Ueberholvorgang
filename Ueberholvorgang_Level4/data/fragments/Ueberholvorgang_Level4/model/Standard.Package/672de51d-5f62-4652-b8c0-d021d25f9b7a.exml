@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ueberholvorgang_level4" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Überholvorgang" version="4">
   <OBJECT>
-    <ID name="ueberholvorgang_level4" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+    <ID name="Überholvorgang" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
     <PID name="Ueberholvorgang_Level4" mc="Standard.Project" uid="f6b7756b-b021-425c-8d0e-0ecd6c03c815"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,9 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ueberholvorgang_level4]]></ATT>
+      <ATT name="Name"><![CDATA[Überholvorgang]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="Fahrzeugmodel Block Diagramm" mc="Standard.StaticDiagram" uid="653f3149-f4ea-4190-bc2c-febbfa3b6601"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>
