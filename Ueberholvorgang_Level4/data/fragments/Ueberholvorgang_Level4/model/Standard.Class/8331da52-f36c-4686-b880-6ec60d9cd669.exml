@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kollisionswarner" version="4">
+  <OBJECT>
+    <ID name="Kollisionswarner" mc="Standard.Class" uid="8331da52-f36c-4686-b880-6ec60d9cd669"/>
+    <PID name="Sicherheitssysteme" mc="Standard.Class" uid="da998cf0-163c-4cdd-b055-f0fa172a07d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Kollisionswarner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Steuergerät" mc="Standard.Class" uid="a0d5a665-b276-4f94-8bab-61c2a08335d5"/>
+        <COMPID name="User Interface" mc="Standard.Class" uid="e80b3aa5-ebf0-4abf-846e-cbdc1eaf50d6"/>
+        <COMPID name="Alarmsystem" mc="Standard.Class" uid="ab3307f3-9c40-4a25-9508-5674b9c9847e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

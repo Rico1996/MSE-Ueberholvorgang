@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Steuergerät" version="4">
+  <OBJECT>
+    <ID name="Steuergerät" mc="Standard.Class" uid="47ae104a-59fe-470b-a0f7-23aed725c5b8"/>
+    <PID name="Ladeeinheit" mc="Standard.Class" uid="c00f62d5-28fa-4312-9bf8-481f4bb1e567"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Steuergerät]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Spannungssensoren" mc="Standard.Class" uid="d5d0c759-0cdd-44ad-a04b-296e7a302639"/>
+        <COMPID name="Temperaturüberwachung" mc="Standard.Class" uid="87a7b125-7294-46f7-ba7f-8d191af9389e"/>
+        <COMPID name="Stromsensor" mc="Standard.Class" uid="0e8b84b7-03f9-4a5b-8f3c-7799b22f00c6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

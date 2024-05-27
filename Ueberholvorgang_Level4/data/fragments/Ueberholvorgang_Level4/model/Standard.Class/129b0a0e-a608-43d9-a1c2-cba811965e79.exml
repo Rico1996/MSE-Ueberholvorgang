@@ -15,6 +15,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Warnblinklicht" mc="Standard.Class" uid="9c26fe10-fd36-4e92-9f4a-8e0fae014176"/>
+        <COMPID name="Externe Signallichter" mc="Standard.Class" uid="465f5be9-edac-43be-b3f9-926388f930f8"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

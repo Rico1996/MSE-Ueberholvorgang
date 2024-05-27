@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Frontscheinwerfer" version="4">
+  <OBJECT>
+    <ID name="Frontscheinwerfer" mc="Standard.Class" uid="77b7bf41-1046-481e-b82d-4c2358263965"/>
+    <PID name="Externe Beleuchtung" mc="Standard.Class" uid="5ff11842-74c8-43be-9e74-00ed0cff863d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Frontscheinwerfer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Blinker" mc="Standard.Class" uid="e7cb4dcc-a7c1-4361-9c5e-5a072994e09a"/>
+        <COMPID name="Tagfahrlicht" mc="Standard.Class" uid="cd046573-5b8a-4fbf-a47a-d42b597e5075"/>
+        <COMPID name="Fernlicht" mc="Standard.Class" uid="08d6de80-b09c-45b7-add2-6946e322d30f"/>
+        <COMPID name="Nebelscheinwerfer" mc="Standard.Class" uid="d652668e-5f1e-4771-afcc-71b083515a4d"/>
+        <COMPID name="Abblendlicht" mc="Standard.Class" uid="f77aed3f-ad5c-4ecc-a77b-1715b885aa6c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

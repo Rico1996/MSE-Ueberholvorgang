@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Lichtsensor" version="4">
+  <OBJECT>
+    <ID name="Lichtsensor" mc="Standard.Class" uid="e064ed5c-6d0b-42a1-a780-646642935736"/>
+    <PID name="Externe Beleuchtung" mc="Standard.Class" uid="5ff11842-74c8-43be-9e74-00ed0cff863d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Lichtsensor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Dämmerungssensor" mc="Standard.Class" uid="b7516f9a-b74d-4724-80ca-c1caf4a08a7a"/>
+        <COMPID name="Regensensor" mc="Standard.Class" uid="2f9cb42a-10ee-425d-8a02-84e31c3bf772"/>
+        <COMPID name="Lichtsensor für Fernlicht" mc="Standard.Class" uid="54bed8d4-9ca4-4a6b-b8c5-5cb002103228"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

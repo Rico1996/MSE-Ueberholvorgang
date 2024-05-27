@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vehicle to Everything Kommunikation" version="4">
+  <OBJECT>
+    <ID name="Vehicle to Everything Kommunikation" mc="Standard.Class" uid="bb2d7bcb-fb71-4908-9883-f0b5bf80ad0b"/>
+    <PID name="Externe Netzwerke" mc="Standard.Class" uid="31735db7-18cc-4f96-91c9-3b5afe39bd56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Vehicle to Everything Kommunikation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Kombinierte Module V2V + V2I" mc="Standard.Class" uid="8ba3fa91-f4d9-4177-8613-c8bc4b8ce26b"/>
+        <COMPID name="Sicherheitsmodule" mc="Standard.Class" uid="735256c0-7d74-4c93-a04a-cb0f064a755a"/>
+        <COMPID name="Multimodule Kommunikationsschnittstelle" mc="Standard.Class" uid="e8c77a3e-5db0-4252-b17e-5f717a9a4036"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Seitenleuchte" version="4">
+  <OBJECT>
+    <ID name="Seitenleuchte" mc="Standard.Class" uid="603e9870-8009-4db2-9838-f317a77a4157"/>
+    <PID name="Externe Beleuchtung" mc="Standard.Class" uid="5ff11842-74c8-43be-9e74-00ed0cff863d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Seitenleuchte]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Blinker" mc="Standard.Class" uid="70ecf378-eb5f-4463-9b2d-46f45ddb76f3"/>
+        <COMPID name="Nebelschlussleuchte" mc="Standard.Class" uid="8ea0f7f7-b705-4566-96f6-a766efcd8ef0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

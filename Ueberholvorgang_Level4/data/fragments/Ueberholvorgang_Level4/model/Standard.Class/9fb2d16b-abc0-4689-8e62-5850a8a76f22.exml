@@ -16,8 +16,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Ladeeinheit" mc="Standard.Class" uid="c00f62d5-28fa-4312-9bf8-481f4bb1e567"/>
         <COMPID name="Traktionsbatterie" mc="Standard.Class" uid="144d5992-e935-4ded-a119-c1daa82473ee"/>
+        <COMPID name="Ladeeinheit" mc="Standard.Class" uid="c00f62d5-28fa-4312-9bf8-481f4bb1e567"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gehäuse" version="4">
+  <OBJECT>
+    <ID name="Gehäuse" mc="Standard.Class" uid="9e21aa29-ace9-48f0-972f-9610fa208ff9"/>
+    <PID name="Traktionsbatterie" mc="Standard.Class" uid="144d5992-e935-4ded-a119-c1daa82473ee"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Gehäuse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Anschraubpunkte" mc="Standard.Class" uid="ffa15103-bfa7-4e41-8dd2-02b5f3d6d42b"/>
+        <COMPID name="Berstscheibe" mc="Standard.Class" uid="97d95df6-f9b0-44bc-aa66-542bdb3c6774"/>
+        <COMPID name="Strom- und Kommunikationsanschlüsse" mc="Standard.Class" uid="8eb524ac-f2e4-4fb3-bb33-bb49f59d98fa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -15,6 +15,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ambientebeleuchtung" mc="Standard.Class" uid="9abc5456-2a74-4dbb-8e9e-53a48cdd38fc"/>
+        <COMPID name="Deckenbeleuchtung" mc="Standard.Class" uid="543a3d4b-f620-4cdc-a6fb-de2ea0a82217"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

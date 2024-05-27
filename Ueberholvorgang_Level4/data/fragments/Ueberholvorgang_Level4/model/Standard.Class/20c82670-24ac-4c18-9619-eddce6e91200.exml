@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DC/DC Wandler" version="4">
+  <OBJECT>
+    <ID name="DC/DC Wandler" mc="Standard.Class" uid="20c82670-24ac-4c18-9619-eddce6e91200"/>
+    <PID name="Ladeeinheit" mc="Standard.Class" uid="c00f62d5-28fa-4312-9bf8-481f4bb1e567"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DC/DC Wandler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Schalttransistoren" mc="Standard.Class" uid="2976b1b9-826c-486c-a07b-f9c96568c89f"/>
+        <COMPID name="Regeleungseinheit" mc="Standard.Class" uid="f6218545-46c4-4369-8bae-56473666a902"/>
+        <COMPID name="Eingangsfilter" mc="Standard.Class" uid="30b23816-c743-4c86-b86d-cd1a1a5980b2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

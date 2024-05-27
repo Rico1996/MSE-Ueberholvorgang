@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Toterwinkelassistent" version="4">
+  <OBJECT>
+    <ID name="Toterwinkelassistent" mc="Standard.Class" uid="22818b2e-6ed7-4d13-ba0d-37eb2fae1af3"/>
+    <PID name="Sicherheitssysteme" mc="Standard.Class" uid="da998cf0-163c-4cdd-b055-f0fa172a07d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Toterwinkelassistent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Steuergerät" mc="Standard.Class" uid="e28a7f28-45fa-4a51-9c65-0f0ce6208e53"/>
+        <COMPID name="User Interface" mc="Standard.Class" uid="6f203757-d1ef-4dab-baea-a96f6a3fbe56"/>
+        <COMPID name="Alarmsystem" mc="Standard.Class" uid="4f397fa8-6562-4ab9-97e0-9ac327c43347"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

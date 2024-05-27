@@ -15,6 +15,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Airbag" mc="Standard.Class" uid="bc6464b0-a542-4195-90d7-b7120603db16"/>
+        <COMPID name="Sicherheitsgurt" mc="Standard.Class" uid="b9652e2e-09f8-4ed6-a2aa-07f326e84498"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

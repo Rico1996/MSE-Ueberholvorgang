@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vehicle to Vehicle Kommunikation" version="4">
+  <OBJECT>
+    <ID name="Vehicle to Vehicle Kommunikation" mc="Standard.Class" uid="7070ca9c-7e0d-4ef2-9c6e-a3ca6e887b6e"/>
+    <PID name="Externe Netzwerke" mc="Standard.Class" uid="31735db7-18cc-4f96-91c9-3b5afe39bd56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Vehicle to Vehicle Kommunikation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bordgeräte" mc="Standard.Class" uid="3f158a98-58bf-440c-9673-7eb68209f678"/>
+        <COMPID name="Module (DSRC-oder C-V2X)" mc="Standard.Class" uid="ae4ad27a-67e4-4714-b0cd-9e77a9850db7"/>
+        <COMPID name="Sicherheitsmodule" mc="Standard.Class" uid="ca7705e7-0056-4f8d-b923-06e26af78190"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

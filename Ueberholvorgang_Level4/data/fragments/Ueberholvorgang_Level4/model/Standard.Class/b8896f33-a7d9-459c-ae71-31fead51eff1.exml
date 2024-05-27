@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Edge-Computing-Einheiten" version="4">
+  <OBJECT>
+    <ID name="Edge-Computing-Einheiten" mc="Standard.Class" uid="b8896f33-a7d9-459c-ae71-31fead51eff1"/>
+    <PID name="Cloud und Edge-Computing Kommunikation" mc="Standard.Class" uid="b97e2a24-e055-4b09-9ab6-ab6b75f4be3b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Edge-Computing-Einheiten]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Lokale Server" mc="Standard.Class" uid="cd83e91b-9f2c-4d96-a2e8-575123d1543c"/>
+        <COMPID name="Datenspeicher" mc="Standard.Class" uid="d7cfb7eb-492c-470e-929d-ed53b956090b"/>
+        <COMPID name="Verarbeitungseinheit" mc="Standard.Class" uid="6a66d9f5-551e-4002-8490-8bb01d4553f8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

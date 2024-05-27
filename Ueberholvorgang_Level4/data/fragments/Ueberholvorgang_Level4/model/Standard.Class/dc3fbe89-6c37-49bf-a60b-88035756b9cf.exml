@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CAN-Bus" version="4">
+  <OBJECT>
+    <ID name="CAN-Bus" mc="Standard.Class" uid="dc3fbe89-6c37-49bf-a60b-88035756b9cf"/>
+    <PID name="Interne Netzwerke" mc="Standard.Class" uid="2b8168c6-af90-45d5-9516-631ce9d2b8ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CAN-Bus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Mikrocontroller" mc="Standard.Class" uid="5c48f383-f4be-4841-aacc-bf46f5dd2f89"/>
+        <COMPID name="Transeiver" mc="Standard.Class" uid="4cefda47-bd54-4f46-b048-8919fde66d23"/>
+        <COMPID name="ECUs" mc="Standard.Class" uid="dd921a28-509e-43a8-86e3-6605092bdd76"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

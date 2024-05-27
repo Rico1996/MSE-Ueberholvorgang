@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LIN-Bus" version="4">
+  <OBJECT>
+    <ID name="LIN-Bus" mc="Standard.Class" uid="df589389-8b7c-4337-a0e6-6c1d82baaa98"/>
+    <PID name="Interne Netzwerke" mc="Standard.Class" uid="2b8168c6-af90-45d5-9516-631ce9d2b8ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[LIN-Bus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Master-Knoten" mc="Standard.Class" uid="46ab7573-d7b1-43c5-b7a6-bebcb6ac6693"/>
+        <COMPID name="Slave-Knoten" mc="Standard.Class" uid="3e12b30b-141b-4541-84bd-ac2adf231c97"/>
+        <COMPID name="Bus-Schnittstelle" mc="Standard.Class" uid="6297ba50-66d5-44a7-ab14-c87787cd2bc1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

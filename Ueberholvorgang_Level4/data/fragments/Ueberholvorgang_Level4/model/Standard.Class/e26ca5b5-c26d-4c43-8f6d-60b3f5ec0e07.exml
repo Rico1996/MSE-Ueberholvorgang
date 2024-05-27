@@ -22,6 +22,9 @@
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>
+      <COMP relation="Product">
+        <COMPID name="Elektrische Energieversorgung Block diagram" mc="Standard.StaticDiagram" uid="bf6618aa-657e-4590-9090-05b37903efdc"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

@@ -15,6 +15,13 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CAN-Bus" mc="Standard.Class" uid="dc3fbe89-6c37-49bf-a60b-88035756b9cf"/>
+        <COMPID name="Ethernet" mc="Standard.Class" uid="f73195d1-38ac-46f5-ba90-7be9f4676f7c"/>
+        <COMPID name="Flexray" mc="Standard.Class" uid="13265434-0462-4d04-949d-eadc0c6a1476"/>
+        <COMPID name="LIN-Bus" mc="Standard.Class" uid="df589389-8b7c-4337-a0e6-6c1d82baaa98"/>
+        <COMPID name="MOST" mc="Standard.Class" uid="5eb9985a-4d70-452d-b82c-9330b22646be"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

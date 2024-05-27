@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vehicle to Infrastructure Kommunikation" version="4">
+  <OBJECT>
+    <ID name="Vehicle to Infrastructure Kommunikation" mc="Standard.Class" uid="1832a156-c7a9-4023-bad8-aa5d42fa6c29"/>
+    <PID name="Externe Netzwerke" mc="Standard.Class" uid="31735db7-18cc-4f96-91c9-3b5afe39bd56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Vehicle to Infrastructure Kommunikation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Straßenseitige Einheit" mc="Standard.Class" uid="e724883a-5e6d-4f33-986d-dc1f819d872d"/>
+        <COMPID name="Verkehrsignal-Controller" mc="Standard.Class" uid="982c1670-f152-4537-a3ea-b2a8d42711e4"/>
+        <COMPID name="Umweltsensoren" mc="Standard.Class" uid="9b453bb9-088f-4b80-8b55-ecb26e480643"/>
+        <COMPID name="Sicherheitsmodule" mc="Standard.Class" uid="ca5f7921-2d20-4a98-b83b-3ade780ba367"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

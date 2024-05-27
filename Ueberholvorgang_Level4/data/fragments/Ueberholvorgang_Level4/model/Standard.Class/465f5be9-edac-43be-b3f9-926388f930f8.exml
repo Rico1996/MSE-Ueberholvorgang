@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Externe Signallichter" version="4">
+  <OBJECT>
+    <ID name="Externe Signallichter" mc="Standard.Class" uid="465f5be9-edac-43be-b3f9-926388f930f8"/>
+    <PID name="Sicherheits- und Signalbeleuchtung" mc="Standard.Class" uid="129b0a0e-a608-43d9-a1c2-cba811965e79"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Externe Signallichter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Toter-Winkel-Leuchte" mc="Standard.Class" uid="8b6994f1-1eed-4746-958b-b6b1fec8b896"/>
+        <COMPID name="Rückfahrscheinwerfer" mc="Standard.Class" uid="19ee3e9d-a5c3-44ec-880c-bf6ecb47c692"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

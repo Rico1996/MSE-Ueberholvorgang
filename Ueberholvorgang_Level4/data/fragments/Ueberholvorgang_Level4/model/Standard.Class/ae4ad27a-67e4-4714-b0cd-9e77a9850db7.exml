@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Module (DSRC-oder C-V2X)" version="4">
+  <OBJECT>
+    <ID name="Module (DSRC-oder C-V2X)" mc="Standard.Class" uid="ae4ad27a-67e4-4714-b0cd-9e77a9850db7"/>
+    <PID name="Vehicle to Vehicle Kommunikation" mc="Standard.Class" uid="7070ca9c-7e0d-4ef2-9c6e-a3ca6e887b6e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Module (DSRC-oder C-V2X)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

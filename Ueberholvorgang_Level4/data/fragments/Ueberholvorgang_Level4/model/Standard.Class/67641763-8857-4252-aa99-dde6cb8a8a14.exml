@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Thermisches Management" version="4">
+  <OBJECT>
+    <ID name="Thermisches Management" mc="Standard.Class" uid="67641763-8857-4252-aa99-dde6cb8a8a14"/>
+    <PID name="Traktionsbatterie" mc="Standard.Class" uid="144d5992-e935-4ded-a119-c1daa82473ee"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Thermisches Management]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Kühlplatte" mc="Standard.Class" uid="0e68697e-73d3-4b45-ad74-b7dbf93d2747"/>
+        <COMPID name="Kühlmittelpumpe" mc="Standard.Class" uid="12d9dc7a-8b0e-4edb-814c-607a8647c75b"/>
+        <COMPID name="Wärmetauscher" mc="Standard.Class" uid="162a7c65-3bd0-4d3f-8acf-c7fe7c299bf3"/>
+        <COMPID name="Temperatursensor" mc="Standard.Class" uid="91d93aab-1e78-415f-b13b-ec469f4d6e56"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

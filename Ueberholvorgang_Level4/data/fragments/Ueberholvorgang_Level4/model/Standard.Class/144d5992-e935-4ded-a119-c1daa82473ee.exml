@@ -15,6 +15,12 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Gehäuse" mc="Standard.Class" uid="9e21aa29-ace9-48f0-972f-9610fa208ff9"/>
+        <COMPID name="Thermisches Management" mc="Standard.Class" uid="67641763-8857-4252-aa99-dde6cb8a8a14"/>
+        <COMPID name="Batteriemanagementsystem" mc="Standard.Class" uid="e5cc9284-e061-4cb4-b79d-c943a65858f7"/>
+        <COMPID name="Batteriemodul" mc="Standard.Class" uid="6304422c-d163-4539-999b-e0c9bc612e73"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

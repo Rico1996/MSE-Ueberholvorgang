@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Flexray" version="4">
+  <OBJECT>
+    <ID name="Flexray" mc="Standard.Class" uid="13265434-0462-4d04-949d-eadc0c6a1476"/>
+    <PID name="Interne Netzwerke" mc="Standard.Class" uid="2b8168c6-af90-45d5-9516-631ce9d2b8ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Flexray]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Kommunikations-kontroller" mc="Standard.Class" uid="a59db633-b2dd-4b09-b742-b5b5602c54ae"/>
+        <COMPID name="Bus-Wächter" mc="Standard.Class" uid="374f8d26-cf5d-4a16-b545-56b02f748200"/>
+        <COMPID name="Stern-koppler" mc="Standard.Class" uid="4c3cc45e-1929-4912-892f-d692ee7ede9e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

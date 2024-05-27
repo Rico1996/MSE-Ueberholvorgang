@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Regelung" version="4">
+  <OBJECT>
+    <ID name="Regelung" mc="Standard.Class" uid="06d7cf63-fd1e-41ea-861b-ac7e7d14ccdd"/>
+    <PID name="Motorsteuerung" mc="Standard.Class" uid="c6d09f9a-7a0e-41ba-ae6b-85e46ba38c4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Regelung]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Spannungssensor" mc="Standard.Class" uid="49520793-11a8-4793-80e3-3cc09d6703f7"/>
+        <COMPID name="Stromsensor" mc="Standard.Class" uid="dda1cdb2-fb06-4ca5-9204-5cfc66335e10"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

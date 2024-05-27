@@ -15,6 +15,12 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Frontscheinwerfer" mc="Standard.Class" uid="77b7bf41-1046-481e-b82d-4c2358263965"/>
+        <COMPID name="Rückleuchte" mc="Standard.Class" uid="f0635edf-b478-4bea-94b1-db7353b1f554"/>
+        <COMPID name="Seitenleuchte" mc="Standard.Class" uid="603e9870-8009-4db2-9838-f317a77a4157"/>
+        <COMPID name="Lichtsensor" mc="Standard.Class" uid="e064ed5c-6d0b-42a1-a780-646642935736"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

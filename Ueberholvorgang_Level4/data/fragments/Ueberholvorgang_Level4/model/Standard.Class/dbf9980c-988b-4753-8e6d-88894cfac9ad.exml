@@ -15,6 +15,12 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Radarsensor" mc="Standard.Class" uid="53e6920c-7783-45c7-9900-3c4895288be5"/>
+        <COMPID name="Kamerasystem" mc="Standard.Class" uid="9d2d6b4a-3d19-4c99-98d2-bc3d2b53dc0f"/>
+        <COMPID name="Ultraschallsensor" mc="Standard.Class" uid="04925fb8-86f0-4cfe-b78f-f0c8a084bb28"/>
+        <COMPID name="GPS" mc="Standard.Class" uid="8319cbb2-3dcd-4908-b3ec-32bc98fc4564"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

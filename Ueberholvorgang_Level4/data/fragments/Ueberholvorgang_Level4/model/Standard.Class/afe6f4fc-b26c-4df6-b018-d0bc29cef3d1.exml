@@ -15,6 +15,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Lenkrad" mc="Standard.Class" uid="22799b7a-a440-4254-9c66-b58645e9fd0d"/>
+        <COMPID name="Türschalter" mc="Standard.Class" uid="e3de229d-beb0-422e-be03-661556c35db4"/>
+        <COMPID name="Spracherkennung" mc="Standard.Class" uid="40923024-85d2-4212-9751-faa3fe86e3c5"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Adaptive-Geschwindigkeitsregelung" version="4">
+  <OBJECT>
+    <ID name="Adaptive-Geschwindigkeitsregelung" mc="Standard.Class" uid="c45ce887-05a9-462e-928e-3799dc4f35f4"/>
+    <PID name="Komfortsysteme" mc="Standard.Class" uid="0b040c2c-98a2-4e09-9880-84bf58fc536a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Adaptive-Geschwindigkeitsregelung]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Steuergerät" mc="Standard.Class" uid="43ed9334-9637-4b95-83f8-8ee2d9f15f9a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

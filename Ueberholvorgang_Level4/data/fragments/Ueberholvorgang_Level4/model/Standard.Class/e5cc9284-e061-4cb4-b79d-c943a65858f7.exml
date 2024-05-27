@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Batteriemanagementsystem" version="4">
+  <OBJECT>
+    <ID name="Batteriemanagementsystem" mc="Standard.Class" uid="e5cc9284-e061-4cb4-b79d-c943a65858f7"/>
+    <PID name="Traktionsbatterie" mc="Standard.Class" uid="144d5992-e935-4ded-a119-c1daa82473ee"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Batteriemanagementsystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Spannungssensor" mc="Standard.Class" uid="077586f5-c24d-411c-8e61-97c03e6bf421"/>
+        <COMPID name="Regelung" mc="Standard.Class" uid="e86637ab-4912-4196-ae74-28f865533cc4"/>
+        <COMPID name="Stromsensor" mc="Standard.Class" uid="a60160ab-0780-4b0f-9f61-6ee92cc4e83b"/>
+        <COMPID name="Schaltschutz" mc="Standard.Class" uid="94b6b014-e22b-4bb9-87bc-0747d7918c98"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -15,6 +15,12 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Notbremsassistent" mc="Standard.Class" uid="88248417-2d41-4118-88a3-146add34030b"/>
+        <COMPID name="Toterwinkelassistent" mc="Standard.Class" uid="22818b2e-6ed7-4d13-ba0d-37eb2fae1af3"/>
+        <COMPID name="Kollisionswarner" mc="Standard.Class" uid="8331da52-f36c-4686-b880-6ec60d9cd669"/>
+        <COMPID name="Müdigkeitswarner" mc="Standard.Class" uid="14f98834-afae-4b53-a369-4e126b7d813d"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

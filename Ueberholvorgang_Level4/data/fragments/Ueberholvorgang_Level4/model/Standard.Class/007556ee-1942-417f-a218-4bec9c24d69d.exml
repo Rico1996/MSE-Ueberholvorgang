@@ -15,6 +15,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ABS" mc="Standard.Class" uid="b3c2a41e-eddd-4cab-a4d8-30d5d81386fe"/>
+        <COMPID name="ESP" mc="Standard.Class" uid="f8a7ddbb-87d9-42f9-b5a3-4588ab2ca78d"/>
+        <COMPID name="TCS" mc="Standard.Class" uid="add43853-978d-4c9e-ae0d-228ab18d19d4"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>

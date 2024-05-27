@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MOST" version="4">
+  <OBJECT>
+    <ID name="MOST" mc="Standard.Class" uid="5eb9985a-4d70-452d-b82c-9330b22646be"/>
+    <PID name="Interne Netzwerke" mc="Standard.Class" uid="2b8168c6-af90-45d5-9516-631ce9d2b8ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MOST]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MOST-Controller" mc="Standard.Class" uid="fb4e77bf-7aff-4545-af7c-f7e1cc0b9f06"/>
+        <COMPID name="Leiter" mc="Standard.Class" uid="9c5f772a-36fe-491f-acbc-b1d4fbf6aabf"/>
+        <COMPID name="Netzwerk-schnittstelle" mc="Standard.Class" uid="a9ca79a8-bcf2-4199-8adb-a2d31c2cbd91"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
