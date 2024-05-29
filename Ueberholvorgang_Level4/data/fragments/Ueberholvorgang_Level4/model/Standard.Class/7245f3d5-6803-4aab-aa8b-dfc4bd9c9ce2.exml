@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Fahrzeug" version="4">
   <OBJECT>
     <ID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
-    <PID name="Überholvorgang" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+    <PID name="Autonomer Überholvorgang Autobahn" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -20,6 +20,7 @@
         <COMPID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>
         <COMPID name="Boardelektronik" mc="Standard.Class" uid="6876a8fb-499f-44d6-b08d-6949f7f3c7a3"/>
         <COMPID name="Antrieb" mc="Standard.Class" uid="f7ab2e36-a0ed-4848-98e5-f41e5ed73864"/>
+        <COMPID name="Hyper Computing Unit" mc="Standard.Class" uid="10c9604c-240b-46d0-9052-bafc5bfde255"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>

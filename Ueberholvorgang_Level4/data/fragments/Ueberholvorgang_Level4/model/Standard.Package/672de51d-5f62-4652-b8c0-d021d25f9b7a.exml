@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Überholvorgang" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Autonomer Überholvorgang Autobahn" version="4">
   <OBJECT>
-    <ID name="Überholvorgang" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+    <ID name="Autonomer Überholvorgang Autobahn" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
     <PID name="Ueberholvorgang_Level4" mc="Standard.Project" uid="f6b7756b-b021-425c-8d0e-0ecd6c03c815"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,12 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Überholvorgang]]></ATT>
+      <ATT name="Name"><![CDATA[Autonomer Überholvorgang Autobahn]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
+        <COMPID name="Server" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Fahrzeugmodel Block Diagramm" mc="Standard.StaticDiagram" uid="653f3149-f4ea-4190-bc2c-febbfa3b6601"/>
