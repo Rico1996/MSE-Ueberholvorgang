@@ -15,7 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
-        <COMPID name="Server" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
+        <COMPID name="Externe Infrastruktur" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Fahrzeugmodel Block Diagramm" mc="Standard.StaticDiagram" uid="653f3149-f4ea-4190-bc2c-febbfa3b6601"/>
