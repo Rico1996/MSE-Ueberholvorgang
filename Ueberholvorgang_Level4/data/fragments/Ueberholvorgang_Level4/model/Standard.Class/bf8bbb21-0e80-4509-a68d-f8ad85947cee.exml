@@ -24,6 +24,9 @@
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>
+      <COMP relation="Product">
+        <COMPID name="Radnabenmotor Internal Block diagram" mc="Standard.StaticDiagram" uid="411eb97f-9ff0-4000-b0f3-211f267144c4"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

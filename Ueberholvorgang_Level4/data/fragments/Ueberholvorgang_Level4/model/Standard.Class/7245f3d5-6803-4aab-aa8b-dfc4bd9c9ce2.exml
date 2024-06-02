@@ -15,16 +15,381 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="e8918e8e-c00d-4ed6-8898-8f6f81057dcb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Energieversorgung HV" mc="Standard.Port" uid="951314be-0519-4870-b313-ddc799d2730b"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Energieversorgung HV" mc="Standard.Port" uid="4d6fb143-0955-4e22-9892-b3cc4cbfc8c3"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="41c08d2a-b2a2-4048-99f2-017daff8e227"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="b711fa96-4ed4-4f14-bb6c-462cae174675"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="88ea8ec5-06a2-4416-84cc-081d3a6ee7ec"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="5a8e4101-b487-409e-8a98-9fa6439c905b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="b711fa96-4ed4-4f14-bb6c-462cae174675"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="373c983e-a5f9-45d0-8ddd-05f3f0dec4e8"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="25b70d34-119b-4618-84c6-c47d854d4626"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Bremse" mc="Standard.Port" uid="b0ad67ce-628c-4593-98e6-2de2aeb3dd91"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd: Bremsen" mc="Standard.Port" uid="e00b9f9d-1ed8-4d31-85a1-6cb57fd85356"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="7d3ff872-1518-44a7-88ce-b3f535c1de98"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Geschwindigkeit" mc="Standard.Port" uid="5a54af36-5e7e-49bd-a3a3-12cc81c1a652"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd: Geschwindigkeit" mc="Standard.Port" uid="02aee508-8688-4edc-be16-ca37baef6821"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="27088d00-6074-475c-b567-f63865ee86bb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Beschleunigung" mc="Standard.Port" uid="85903de3-4413-414e-b1e1-579d996ecc35"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd: Beschleunigung" mc="Standard.Port" uid="556ef4aa-2de8-4504-a5a0-b0435a145b4b"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="0fee3372-8d0f-40a6-adcb-ba4638f9472f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Beschleunigung" mc="Standard.Port" uid="5fd147b6-3c1a-4223-97bd-7e67d80c2484"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Beschleunigung" mc="Standard.Port" uid="5a4ce932-e59a-4937-94e0-36c20dbe4a23"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="aa53af80-3bfc-47de-9a2d-87dfacf3dd2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Bremsen" mc="Standard.Port" uid="7048a617-7cd0-4635-82a9-29266133bfc5"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Bremse" mc="Standard.Port" uid="d737a0b4-cf1f-4c77-8c1e-1a3119920126"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="7def24fd-32d1-4249-9970-de318829749e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Lenkung" mc="Standard.Port" uid="593d4a37-4499-43fd-83c2-5c88c53125e7"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Lenkung" mc="Standard.Port" uid="b2be4051-c225-4933-878c-86abb1d3a7cf"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="8a0b4306-4d19-4e09-b42d-a7e7ca45a98a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Bremsen" mc="Standard.Port" uid="7048a617-7cd0-4635-82a9-29266133bfc5"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Bremsen" mc="Standard.Port" uid="2c54190f-2376-4196-90ba-68ed9bc2a29b"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="08d6843c-bb93-4b82-ba7d-4989129da3eb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="b711fa96-4ed4-4f14-bb6c-462cae174675"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Energieversorgung LV" mc="Standard.Port" uid="e7530c8b-7040-47be-9d0d-ff6ab0bbc005"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="f7601b86-b3ee-457a-9891-90e92a74d5c2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Geschwindigkeit" mc="Standard.Port" uid="683bd309-8429-453c-8fbd-21ac5f2f1516"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Geschwindigkeit" mc="Standard.Port" uid="0a651a2d-cbcd-4507-b46b-d1ccd3ef927b"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="59c17ae0-b11a-48b7-b197-38f019830c9e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Umfeldbeleuchtung" mc="Standard.Port" uid="3770981f-48be-47a1-9cc9-ceea7172345f"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd: Umfeldbeleuchtung" mc="Standard.Port" uid="34f50bb1-f346-45fc-9abc-7e1d404d7e04"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="706243d3-0432-4108-92f6-8edf306e1da5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Umgebung" mc="Standard.Port" uid="05dd2cd6-25a0-4c00-9887-9894d29b5049"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Umgebung" mc="Standard.Port" uid="c7d1be4f-7cf7-465d-8760-d56987c0ebe8"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="c917bb38-ef90-4419-9ee1-13755a3fa5d3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Batterie" mc="Standard.Port" uid="9135616f-810e-4908-a8da-18ff84947752"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Batterie" mc="Standard.Port" uid="bb6c6660-d0a3-4f05-8f8c-2b64a26cfd41"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="ff108bc3-bc1b-4095-bdef-6a92c9c0ab64"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Autonomes fahren" mc="Standard.Port" uid="f5888db4-b6f5-4d19-88f7-bd2bee3f8247"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd: Autonomes fahren" mc="Standard.Port" uid="e892062f-86cf-41df-bf16-db91685a3e78"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="9c580cfb-5c00-4799-9c42-00ca2046c4a3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="CMD: User" mc="Standard.Port" uid="a91e7681-8ba7-4db3-9333-33e4d7b33f87"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="CMD: User" mc="Standard.Port" uid="16f3c0d7-8d68-4cfb-9f26-17d42aedbc4e"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="59e61f49-3533-4821-973b-61aeeeb3f737"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="State: Geschwindigkeit" mc="Standard.Port" uid="683bd309-8429-453c-8fbd-21ac5f2f1516"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="State: Geschwindigkeit" mc="Standard.Port" uid="20c6eb7e-d9da-4919-9d0a-4983c0c1b871"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="a5ba046b-783d-44da-887c-6d1bc395c0d5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Cmd: Lenkung" mc="Standard.Port" uid="38d54916-2653-485f-bfea-eedf1e7e69fa"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cmd Lenkung" mc="Standard.Port" uid="03158ce7-c764-4f74-90cb-ba5eb20a035f"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Elektrische Energieversorgung" mc="Standard.Class" uid="e26ca5b5-c26d-4c43-8f6d-60b3f5ec0e07"/>
-        <COMPID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>
-        <COMPID name="Boardelektronik" mc="Standard.Class" uid="6876a8fb-499f-44d6-b08d-6949f7f3c7a3"/>
         <COMPID name="Antrieb" mc="Standard.Class" uid="f7ab2e36-a0ed-4848-98e5-f41e5ed73864"/>
-        <COMPID name="Hyper Computing Unit" mc="Standard.Class" uid="10c9604c-240b-46d0-9052-bafc5bfde255"/>
+        <COMPID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>
+        <COMPID name="Elektrische Energieversorgung" mc="Standard.Class" uid="e26ca5b5-c26d-4c43-8f6d-60b3f5ec0e07"/>
+        <COMPID name="Boardelektronik" mc="Standard.Class" uid="6876a8fb-499f-44d6-b08d-6949f7f3c7a3"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>
+      <COMP relation="Product">
+        <COMPID name="Fahrzeug Internal Block diagram" mc="Standard.StaticDiagram" uid="04c79b36-811a-4475-ad8f-c9a2134317ea"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="9b36ef3d-6745-4497-b8e9-2296cb702664"/>
