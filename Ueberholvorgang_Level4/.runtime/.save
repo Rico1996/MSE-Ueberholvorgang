@@ -1,10 +1,13 @@
-#Sun Jun 02 21:42:59 CEST 2024
+#Mon Jun 10 13:37:45 CEST 2024
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.diagram.editor.OpenedDiagrams0='Fahrzeugmodel Block Diagramm' {653f3149-f4ea-4190-bc2c-febbfa3b6601} Standard.StaticDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.diagram.editor.OpenedDiagrams3='Elektrische Energieversorgung Block diagram' {bf6618aa-657e-4590-9090-05b37903efdc} Standard.StaticDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams4='Fahrzeug Internal Block diagram' {04c79b36-811a-4475-ad8f-c9a2134317ea} Standard.StaticDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Antrieb Internal Block diagram' {d52a7c3c-5542-4de7-8315-eaa1cafe859a} Standard.StaticDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='Radnabenmotor Internal Block diagram' {411eb97f-9ff0-4000-b0f3-211f267144c4} Standard.StaticDiagram
-org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams7='Exterieur Internal Block diagram' {fe5a6ee5-4da3-4ce8-b8cf-9e0e82e84a38} Standard.StaticDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Design Internal Block diagram' {66d21b88-834e-4ba0-8aeb-ad5f3c43cfbc} Standard.StaticDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Fahrwerk Internal Block diagram' {107d9fa8-804f-490e-a1dd-b3615de5711b} Standard.StaticDiagram
