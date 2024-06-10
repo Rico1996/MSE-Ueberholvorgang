@@ -1,0 +1,533 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="4">
+  <OBJECT>
+    <ID name="Interaction" mc="Standard.Interaction" uid="a2b20dd3-c023-43c6-a8f9-230da14ed78e"/>
+    <PID name="Autonomer Überholvorgang Autobahn" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="32a9922b-f6a6-458e-836a-c9bb0a9fa0ba"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">63</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Req: Verkehrsdaten" mc="Standard.Message" uid="50a84e1e-70aa-46fb-9ce4-a4f5017dd70f"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Sequence"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[Req: Verkehrsdaten]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="5ae132a6-d398-4f48-84ac-635307b271ab"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="5ae132a6-d398-4f48-84ac-635307b271ab"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">68</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionSpecification" uid="67c25395-e5d1-4d23-946f-3f7e16a15661"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="66fb3de9-b646-4d73-8fea-aa659c8c98a7"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">128</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Cmd: Verkehrsdaten" mc="Standard.Message" uid="019dd12c-e4ce-46a7-9f26-5f7c81d44631"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Sequence"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[Cmd: Verkehrsdaten]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="9c2f3575-80b8-48c7-a587-1475f288856a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionSpecification" uid="67c25395-e5d1-4d23-946f-3f7e16a15661"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">68</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="66fb3de9-b646-4d73-8fea-aa659c8c98a7"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="9c2f3575-80b8-48c7-a587-1475f288856a"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">128</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="2662ecbe-c363-49c1-b624-8b7045048c05"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">181</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Req: Fahrzeugdaten" mc="Standard.Message" uid="8add80d6-cdaf-4ebc-b80c-8d1c9ec16faf"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Sequence"><![CDATA[3]]></ATT>
+                  <ATT name="Name"><![CDATA[Req: Fahrzeugdaten]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="55c6a7d3-ff4d-49e0-b580-5f630a2a9cd3"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="55c6a7d3-ff4d-49e0-b580-5f630a2a9cd3"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">181</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionSpecification" uid="7c59efa5-069b-4e01-a08d-865d6829e96e"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ea4a8c61-bd1c-49d9-865c-1a4bd8cbc76c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">241</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Cmd: Fahrzeugdaten" mc="Standard.Message" uid="be95fa81-01b6-4be6-a621-c5c3b01ed375"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Sequence"><![CDATA[4]]></ATT>
+                  <ATT name="Name"><![CDATA[Cmd: Fahrzeugdaten]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="8487eba5-d313-4cc8-9f4c-932b4451f39f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionSpecification" uid="7c59efa5-069b-4e01-a08d-865d6829e96e"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">181</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ea4a8c61-bd1c-49d9-865c-1a4bd8cbc76c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="8487eba5-d313-4cc8-9f4c-932b4451f39f"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">241</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="r0" mc="Standard.Lifeline" uid="e8bd1dc3-166f-4319-a5ab-243b2290083a"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r0]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="Standard.BindableInstance" uid="67ad3b98-113a-454f-91c5-b16efb97c359"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Lifeline" uid="f35825cc-f8c5-4992-a44e-4ff15cb7efbb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r1" mc="Standard.BindableInstance" uid="dde0586c-6b9e-4ca0-8bde-542654c16562"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="82de64b4-6fde-4cc3-830a-d346fa475dcd"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="Standard.BindableInstance" uid="67ad3b98-113a-454f-91c5-b16efb97c359"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID name="State: Fahrzeugdaten" mc="Standard.Port" uid="11c0081f-cfe4-4acc-a2c6-6ce9b7c6d690"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Inout</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name"><![CDATA[State: Fahrzeugdaten]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Required">
+                          <OBJECT>
+                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="4a85c25a-74a5-4d3f-a06f-68a87e763516"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="State: Fahrzeugdaten" mc="Standard.Port" uid="571209dd-5e9c-46ed-b9bf-487330782412"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedNaryEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="7b000e85-897d-48ee-9464-b9a1848be8ad"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnector" uid="030bcf6f-8d40-419e-80e7-e1cd864c5827"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLinkEnd">
+                                      <COMPID name="" mc="Standard.NaryConnectorEnd" uid="7b000e85-897d-48ee-9464-b9a1848be8ad"/>
+                                      <OBJECT>
+                                        <ID name="" mc="Standard.NaryConnectorEnd" uid="4713f53a-1101-429e-a20e-f0fd00d28d00"/>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                          <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="NaryLink">
+                                            <COMPID name="" mc="Standard.NaryConnector" uid="030bcf6f-8d40-419e-80e7-e1cd864c5827"/>
+                                          </COMP>
+                                          <LINK relation="Provider">
+                                            <REFOBJ>
+                                              <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="342b3760-81e9-4565-9471-0d4144e35fca"/>
+                                            </REFOBJ>
+                                          </LINK>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="4a85c25a-74a5-4d3f-a06f-68a87e763516"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="State: Verkehrsdaten" mc="Standard.Port" uid="116790a1-4ba3-4d0e-83f8-b0f42533b290"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Inout</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name"><![CDATA[State: Verkehrsdaten]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Provided">
+                          <OBJECT>
+                            <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="a5204a44-799f-4e44-9051-c8a8db472d14"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="State: Verkehrsdaten" mc="Standard.Port" uid="4c57a02f-3996-4da6-b0bf-4dc88fdbc878"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedNaryEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="1641eeda-784d-4e91-a071-b7cd81470b88"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnector" uid="981c74f6-4d68-4af1-aba2-08a907d40438"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLinkEnd">
+                                      <OBJECT>
+                                        <ID name="" mc="Standard.NaryConnectorEnd" uid="36b92a07-5907-41d6-8d11-2660b0654043"/>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                          <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="NaryLink">
+                                            <COMPID name="" mc="Standard.NaryConnector" uid="981c74f6-4d68-4af1-aba2-08a907d40438"/>
+                                          </COMP>
+                                          <LINK relation="Consumer">
+                                            <REFOBJ>
+                                              <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="75cbe725-5e36-4037-aac2-ebabd1d4d93b"/>
+                                            </REFOBJ>
+                                          </LINK>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                      <COMPID name="" mc="Standard.NaryConnectorEnd" uid="1641eeda-784d-4e91-a071-b7cd81470b88"/>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Provider">
+                                <REFOBJ>
+                                  <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="a5204a44-799f-4e44-9051-c8a8db472d14"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r1" mc="Standard.BindableInstance" uid="dde0586c-6b9e-4ca0-8bde-542654c16562"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Externe Infrastruktur" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Sequence diagram System" mc="Standard.SequenceDiagram" uid="ae2ea015-2138-4cbb-987a-1b8949baba26"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -137,6 +137,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="439ea079-ab51-44c6-8f6c-382cbe6bbd1a"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Antrieb" mc="Standard.Class" uid="f7ab2e36-a0ed-4848-98e5-f41e5ed73864"/>
         <COMPID name="Design" mc="Standard.Class" uid="9fb85efd-6801-4f85-8a66-5adb4841a08c"/>

@@ -13,12 +13,27 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="a2b20dd3-c023-43c6-a8f9-230da14ed78e"/>
+        <COMPID name="Activity" mc="Standard.Activity" uid="be6556eb-d663-467f-a93b-7a45cb6a72d2"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
         <COMPID name="Externe Infrastruktur" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
+        <COMPID name="Autonomes Fahrzeug" mc="Standard.Actor" uid="47cf8b71-1395-46a0-8045-ff3362ea56de"/>
+        <COMPID name="Erkennen von Überholmöglichkeiten" mc="Standard.UseCase" uid="532129c4-cc3b-4cec-aab3-dd11074634be"/>
+        <COMPID name="Initiieren des Überholvorgangs" mc="Standard.UseCase" uid="8551404b-ed9c-4824-bee7-a6a7fb76c814"/>
+        <COMPID name="Durchführung des Überholens" mc="Standard.UseCase" uid="8b2cd748-53a0-4036-8725-1cf787f04678"/>
+        <COMPID name="Beendigung des Überholvorgangs und Rückkehr auf die ursprüngliche Fahrbahn" mc="Standard.UseCase" uid="5bb12b93-100e-44b3-b874-70e4d970baa9"/>
+        <COMPID name="Kommunikation mit anderen Fahrzeugen" mc="Standard.UseCase" uid="9599e43e-bc5c-4392-bc13-a04cef17a12a"/>
+        <COMPID name="Überwachung und Steuerung des Fahrzeuges" mc="Standard.UseCase" uid="57c85a06-86f8-41aa-82ca-c81de6cc921c"/>
+        <COMPID name="Fahrzeugnutzer" mc="Standard.Actor" uid="951e9b3b-d400-4d18-a4e9-e8ad9ec246fd"/>
+        <COMPID name="Andere Fahrzeuge" mc="Standard.Actor" uid="e724821d-6991-48c6-b9ab-425847e0ee5a"/>
+        <COMPID name="Verkehrsleitsystem" mc="Standard.Actor" uid="459ae83b-9aa9-4808-826f-0cc9649e38df"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Fahrzeugmodel Block Diagramm" mc="Standard.StaticDiagram" uid="653f3149-f4ea-4190-bc2c-febbfa3b6601"/>
+        <COMPID name="Autonomer Überholvorgang Autobahn Usecase diagram" mc="Standard.UseCaseDiagram" uid="251090a7-d87d-403b-ad00-7d3fcaa88269"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
