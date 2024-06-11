@@ -1,9 +1,13 @@
-#Mon Jun 10 15:01:53 CEST 2024
+#Tue Jun 11 20:38:51 CEST 2024
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.diagram.editor.OpenedDiagrams0='Fahrzeug Internal Block diagram' {04c79b36-811a-4475-ad8f-c9a2134317ea} Standard.StaticDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
-org.modelio.app.diagram.editor.OpenedDiagrams3='Autonomer \u00DCberholvorgang Autobahn Activity diagram' {409e72ab-cac9-4351-a9e1-de12a6866995} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Aktivit\u00E4tsdiagramm Externe Infrastruktur' {409e72ab-cac9-4351-a9e1-de12a6866995} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams4='Autonomer \u00DCberholvorgang Autobahn Usecase diagram' {251090a7-d87d-403b-ad00-7d3fcaa88269} Standard.UseCaseDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Design Internal Block diagram' {66d21b88-834e-4ba0-8aeb-ad5f3c43cfbc} Standard.StaticDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='Fahrwerk Internal Block diagram' {107d9fa8-804f-490e-a1dd-b3615de5711b} Standard.StaticDiagram
-org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams7='Aktivit\u00E4tsdiagramm \u00DCberholvorgang' {e9ea0898-a060-4e63-b641-756957ab7a85} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Fahrzeugmodel Block Diagramm' {653f3149-f4ea-4190-bc2c-febbfa3b6601} Standard.StaticDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Aktivit\u00E4tsdiagramm Fahrzeuglokalisierung' {fb7fc101-f123-4b71-9b70-87eb8ab0bdc9} Standard.ActivityDiagram

@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Lokalisierung" version="4">
   <OBJECT>
-    <ID name="Activity" mc="Standard.Activity" uid="be6556eb-d663-467f-a93b-7a45cb6a72d2"/>
-    <PID name="Externe Infrastruktur" mc="Standard.Class" uid="25190dc7-b8ac-4978-b1d3-569d0726a23f"/>
+    <ID name="Lokalisierung" mc="Standard.Activity" uid="6e706d80-0281-4d1b-b9f5-166eb942f78a"/>
+    <PID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
     <ATTRIBUTES>
       <ATT name="IsSingleExecution">false</ATT>
       <ATT name="IsReadOnly">false</ATT>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Activity]]></ATT>
+      <ATT name="Name"><![CDATA[Lokalisierung]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedNode">
         <OBJECT>
-          <ID name="Initial Node" mc="Standard.InitialNode" uid="2a592f8e-1574-4ae3-ac73-40149034a9af"/>
+          <ID name="Initial Node" mc="Standard.InitialNode" uid="193a33c3-e518-49d1-977a-95ccb1339b76"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[Initial Node]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -21,7 +21,7 @@
           <DEPENDENCIES>
             <COMP relation="Outgoing">
               <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="951bfff6-27b7-4312-8688-4660b20cc691"/>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="201304f0-666d-4ef0-9f70-51077e8d42db"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -31,7 +31,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Verbindungsaufbau zum Fahrzeug" mc="Standard.OpaqueAction" uid="2446d2e3-d3f3-45a6-9849-1f37f5c5424d"/>
+                      <ID name="Initialisierung mit Externer Infrastruktur" mc="Standard.OpaqueAction" uid="a982d42f-20a0-4563-8ec4-2d2f013759a0"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -40,18 +40,18 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Senden der aktuellen Verkehrsinformationen an Fahrzeuge" mc="Standard.OpaqueAction" uid="9ee6d435-f050-4e3d-a572-3556c723dd3d"/>
+          <ID name="Initialisierung mit Externer Infrastruktur" mc="Standard.OpaqueAction" uid="a982d42f-20a0-4563-8ec4-2d2f013759a0"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
             <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Senden der aktuellen Verkehrsinformationen an Fahrzeuge]]></ATT>
+            <ATT name="Name"><![CDATA[Initialisierung mit Externer Infrastruktur]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Outgoing">
               <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="c97cc66e-6015-4721-b965-3f52fb213b4f"/>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="8b742143-663e-457e-9c04-ad2e790d98c7"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -61,7 +61,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="cd03df60-9c9b-4ba9-b944-3833935becfa"/>
+                      <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="b90a2cf0-057f-40a7-85a9-089b4e0273bc"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -70,127 +70,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Empfang der Fahrzeugdaten" mc="Standard.OpaqueAction" uid="d345d1b1-98e5-4fcf-87dd-df33bb171eeb"/>
-          <ATTRIBUTES>
-            <ATT name="Body"></ATT>
-            <ATT name="IsMultipleInstance">false</ATT>
-            <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Empfang der Fahrzeugdaten]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="690847af-137a-406e-82d0-12465f57af40"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Empfangen der Verkehrsdaten durch Verkehrinfrastruktur" mc="Standard.OpaqueAction" uid="4f0d9429-e547-48e2-8a76-0f6f349cb85b"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Verarbeitung der erhaltenen Daten" mc="Standard.OpaqueAction" uid="3098928e-a33d-4548-95b3-11372b759ac7"/>
-          <ATTRIBUTES>
-            <ATT name="Body"></ATT>
-            <ATT name="IsMultipleInstance">false</ATT>
-            <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Verarbeitung der erhaltenen Daten]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="6fa37b29-6042-4bea-8b07-f4fc17281518"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Senden der aktuellen Verkehrsinformationen an Fahrzeuge" mc="Standard.OpaqueAction" uid="9ee6d435-f050-4e3d-a572-3556c723dd3d"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Empfangen der Verkehrsdaten durch Verkehrinfrastruktur" mc="Standard.OpaqueAction" uid="4f0d9429-e547-48e2-8a76-0f6f349cb85b"/>
-          <ATTRIBUTES>
-            <ATT name="Body"></ATT>
-            <ATT name="IsMultipleInstance">false</ATT>
-            <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Empfangen der Verkehrsdaten durch Verkehrinfrastruktur]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="272029b0-4d9f-491d-bab6-1ffd700d9c7a"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Verarbeitung der erhaltenen Daten" mc="Standard.OpaqueAction" uid="3098928e-a33d-4548-95b3-11372b759ac7"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Verbindungsaufbau zum Fahrzeug" mc="Standard.OpaqueAction" uid="2446d2e3-d3f3-45a6-9849-1f37f5c5424d"/>
-          <ATTRIBUTES>
-            <ATT name="Body"></ATT>
-            <ATT name="IsMultipleInstance">false</ATT>
-            <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Verbindungsaufbau zum Fahrzeug]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="af30d862-053a-44ea-818e-1e20c914f231"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="89425a0b-004a-43a8-96ba-a1e017160db1"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="89425a0b-004a-43a8-96ba-a1e017160db1"/>
+          <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="b90a2cf0-057f-40a7-85a9-089b4e0273bc"/>
           <ATTRIBUTES>
             <ATT name="DecisionKind">ExclusiveDecision</ATT>
             <ATT name="DecisionInputBehavior"></ATT>
@@ -200,76 +80,7 @@
           <DEPENDENCIES>
             <COMP relation="Outgoing">
               <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="aefe1b83-6c94-4206-924d-d1f34dee02d4"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[Verbindung erfolgreich]]></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Empfang der Fahrzeugdaten" mc="Standard.OpaqueAction" uid="d345d1b1-98e5-4fcf-87dd-df33bb171eeb"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="c87a5a79-20f3-4cec-bd0c-8bf461de93cd"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[Verbindung nicht erfolgreich]]></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Verbindungsaufbau zum Fahrzeug" mc="Standard.OpaqueAction" uid="2446d2e3-d3f3-45a6-9849-1f37f5c5424d"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="1577961c-a3ab-44b4-85f9-294115db3e01"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[Activity Final Node]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="cd03df60-9c9b-4ba9-b944-3833935becfa"/>
-          <ATTRIBUTES>
-            <ATT name="DecisionKind">ExclusiveDecision</ATT>
-            <ATT name="DecisionInputBehavior"></ATT>
-            <ATT name="Name"><![CDATA[Decision-Merge1]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="991e1d77-d138-44d4-8cb0-8255a8a5009f"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[Initialisierung erfolgreich]]></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="1577961c-a3ab-44b4-85f9-294115db3e01"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="ce58a156-de9d-4c2e-9c4f-f5a95f5f837e"/>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="f1db217f-2a1f-42f7-818c-813cd43e31b7"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[Initialisierung fehlgeschlagen]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -279,7 +90,23 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Empfang der Fahrzeugdaten" mc="Standard.OpaqueAction" uid="d345d1b1-98e5-4fcf-87dd-df33bb171eeb"/>
+                      <ID name="Initialisierung mit Externer Infrastruktur" mc="Standard.OpaqueAction" uid="a982d42f-20a0-4563-8ec4-2d2f013759a0"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="73742ff2-cefb-4856-8e6f-69026bfd6626"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Initialisierung erfolgreich]]></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Lokalisierung des Fahrzeugs" mc="Standard.OpaqueAction" uid="25d69f87-82a8-4923-8838-3eeefc728125"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -287,10 +114,153 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="Lokalisierung des Fahrzeugs" mc="Standard.OpaqueAction" uid="25d69f87-82a8-4923-8838-3eeefc728125"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[Lokalisierung des Fahrzeugs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="ed8114a2-6dfc-4376-9ae0-b0b27553ff39"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="d6e42035-b0ec-41c6-a226-7bdbd8721048"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="d6e42035-b0ec-41c6-a226-7bdbd8721048"/>
+          <ATTRIBUTES>
+            <ATT name="DecisionKind">ExclusiveDecision</ATT>
+            <ATT name="DecisionInputBehavior"></ATT>
+            <ATT name="Name"><![CDATA[Decision-Merge1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="dbc5382f-3a53-4b00-bf4c-6cce699fd534"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Fahrzeug befindet sich nicht auf der Autobahn]]></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Autonomer Überholvorgang nicht möglich" mc="Standard.OpaqueAction" uid="aa3242da-b182-46f1-8e28-6b60a5a9a904"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="72d66772-7628-4be2-8a04-eb0e556ad0b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Fahrzeug befindet sich auf der Autobahn]]></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Autonomer Überholvorgang möglich" mc="Standard.OpaqueAction" uid="ca360261-a27e-4068-a395-21b8ccbe668b"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Autonomer Überholvorgang nicht möglich" mc="Standard.OpaqueAction" uid="aa3242da-b182-46f1-8e28-6b60a5a9a904"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[Autonomer Überholvorgang nicht möglich]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="c0bb981d-664e-4cff-9e89-fe3cbd9a5c50"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Lokalisierung des Fahrzeugs" mc="Standard.OpaqueAction" uid="25d69f87-82a8-4923-8838-3eeefc728125"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Autonomer Überholvorgang möglich" mc="Standard.OpaqueAction" uid="ca360261-a27e-4068-a395-21b8ccbe668b"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[Autonomer Überholvorgang möglich]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="5b2b0b09-ed68-44c8-8182-a4de2e530171"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="a95de2cd-2596-4aa7-80b2-ae8f7a1565b5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="a95de2cd-2596-4aa7-80b2-ae8f7a1565b5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Activity Final Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
-          <ID name="locals" mc="Standard.Collaboration" uid="2a7959b0-d870-4951-8f44-c3fc971733d1"/>
+          <ID name="locals" mc="Standard.Collaboration" uid="7f4e8815-0aef-4aee-9beb-2ab5fc6f5433"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
@@ -304,7 +274,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Aktivitätsdiagramm Externe Infrastruktur" mc="Standard.ActivityDiagram" uid="409e72ab-cac9-4351-a9e1-de12a6866995"/>
+        <COMPID name="Aktivitätsdiagramm Fahrzeuglokalisierung" mc="Standard.ActivityDiagram" uid="fb7fc101-f123-4b71-9b70-87eb8ab0bdc9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -15,7 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Interaction" mc="Standard.Interaction" uid="a2b20dd3-c023-43c6-a8f9-230da14ed78e"/>
-        <COMPID name="Activity" mc="Standard.Activity" uid="be6556eb-d663-467f-a93b-7a45cb6a72d2"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>

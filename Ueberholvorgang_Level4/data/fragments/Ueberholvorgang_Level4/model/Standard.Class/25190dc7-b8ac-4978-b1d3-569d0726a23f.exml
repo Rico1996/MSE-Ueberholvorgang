@@ -15,6 +15,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="be6556eb-d663-467f-a93b-7a45cb6a72d2"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Server" mc="Standard.Class" uid="1f6e0192-35f3-4666-bdf0-cbf16fc85c31"/>
         <COMPID name="5G" mc="Standard.Class" uid="28af5db5-1280-406a-9a53-a76ae1bbe199"/>

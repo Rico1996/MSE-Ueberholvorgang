@@ -139,6 +139,8 @@
       </COMP>
       <COMP relation="OwnedBehavior">
         <COMPID name="Interaction" mc="Standard.Interaction" uid="439ea079-ab51-44c6-8f6c-382cbe6bbd1a"/>
+        <COMPID name="Lokalisierung" mc="Standard.Activity" uid="6e706d80-0281-4d1b-b9f5-166eb942f78a"/>
+        <COMPID name="Überholvorgang" mc="Standard.Activity" uid="b1903339-cb4b-4244-81c9-d976c007f17a"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Antrieb" mc="Standard.Class" uid="f7ab2e36-a0ed-4848-98e5-f41e5ed73864"/>
