@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Lokalisierung" version="4">
   <OBJECT>
     <ID name="Lokalisierung" mc="Standard.Activity" uid="6e706d80-0281-4d1b-b9f5-166eb942f78a"/>
-    <PID name="Fahrzeug" mc="Standard.Class" uid="7245f3d5-6803-4aab-aa8b-dfc4bd9c9ce2"/>
+    <PID name="Autonomer Überholvorgang Autobahn" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
     <ATTRIBUTES>
       <ATT name="IsSingleExecution">false</ATT>
       <ATT name="IsReadOnly">false</ATT>

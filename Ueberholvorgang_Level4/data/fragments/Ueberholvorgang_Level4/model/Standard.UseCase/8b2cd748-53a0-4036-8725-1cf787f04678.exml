@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Durchführung des Überholens" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Starten des Überholvorgangs" version="4">
   <OBJECT>
-    <ID name="Durchführung des Überholens" mc="Standard.UseCase" uid="8b2cd748-53a0-4036-8725-1cf787f04678"/>
+    <ID name="Starten des Überholvorgangs" mc="Standard.UseCase" uid="8b2cd748-53a0-4036-8725-1cf787f04678"/>
     <PID name="Autonomer Überholvorgang Autobahn" mc="Standard.Package" uid="672de51d-5f62-4652-b8c0-d021d25f9b7a"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Durchführung des Überholens]]></ATT>
+      <ATT name="Name"><![CDATA[Starten des Überholvorgangs]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
